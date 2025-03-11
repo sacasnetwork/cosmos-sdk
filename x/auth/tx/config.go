@@ -72,7 +72,7 @@ var DefaultSignModes = []signingtypes.SignMode{
 //
 // We prefer to use depinject to provide client.TxConfig, but we permit this constructor usage. Within the SDK,
 // this constructor is primarily used in tests, but also sees usage in app chains like:
-// https://github.com/evmos/evmos/blob/719363fbb92ff3ea9649694bd088e4c6fe9c195f/encoding/config.go#L37
+// https://github.com/sacasnetwork/sacas/blob/719363fbb92ff3ea9649694bd088e4c6fe9c195f/encoding/config.go#L37
 func NewTxConfig(protoCodec codec.Codec, enabledSignModes []signingtypes.SignMode,
 	customSignModes ...txsigning.SignModeHandler,
 ) client.TxConfig {
