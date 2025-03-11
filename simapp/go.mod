@@ -15,7 +15,7 @@ require (
 	github.com/cosmos/cosmos-sdk v0.47.0-rc1
 	github.com/cosmos/cosmos-sdk/x/nft v0.1.0-alpha1
 	github.com/golang/mock v1.6.0
-	github.com/spf13/cast v1.5.0
+	github.com/spf13/cast v1.7.1
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.14.0
 	github.com/stretchr/testify v1.8.1
@@ -117,7 +117,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/jmhodges/levigo v1.0.0 // indirect
 	github.com/klauspost/compress v1.15.12 // indirect
-	github.com/kr/pretty v0.3.0 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/lib/pq v1.10.7 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
