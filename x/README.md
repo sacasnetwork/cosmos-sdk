@@ -33,4 +33,12 @@ The IBC module for the SDK has moved to its [own repository](https://github.com/
 
 ## CosmWasm
 
+Updated upstream
 The CosmWasm module enables smart contracts, and has its [own repository](https://github.com/CosmWasm/cosmwasm) and [documentation site](https://docs.cosmwasm.com/docs/1.0).
+
+The CosmWasm module enables smart contracts, learn more by going to their [documentation site](https://book.cosmwasm.com/), or visit [the repository](https://github.com/CosmWasm/cosmwasm).
+
+## EVM
+
+Read more about writing smart contracts with solidity at the official [`evm` documentation page](https://docs.sacas.org/modules/evm/).
+Stashed changes

@@ -35,7 +35,11 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 # Changelog
 
+Updated upstream
 ## [v0.46.10-alpha.ledger.2](https://github.com/evmos/cosmos-sdk/releases/tag/v0.46.10-alpha.ledger.2) - 2023-03-15
+
+## [v0.50.9-sacas](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.50.9-sacas) - 2024-08-07
+Stashed changes
 
 ### Improvements
 
@@ -117,6 +121,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
     * Also provide a helper function `govv046.Migrate_V0466_To_V0467` for migrating a chain already on v0.46 with versions <=v0.46.6 to the latest v0.46.7 correct state.
 * (x/group) [#14071](https://github.com/cosmos/cosmos-sdk/pull/14071) Don't re-tally proposal after voting period end if they have been marked as ACCEPTED or REJECTED.
 
+<<<<<<< Updated upstream
 ### API Breaking Changes
 
 * (store) [#13516](https://github.com/cosmos/cosmos-sdk/pull/13516) Update State Streaming APIs:
@@ -143,6 +148,17 @@ Ref: https://keepachangelog.com/en/1.0.0/
 ### Bug Fixes
 
 * (x/gov) [#13918](https://github.com/cosmos/cosmos-sdk/pull/13918) Fix propagation of message errors when executing a proposal.
+=======
+## [v0.50.8-sacas.2](https://github.com/sacasnetwork/cosmos-sdk/releases/tag/v0.50.8-sacas.2) - 2024-08-06
+
+### Improvements
+
+* (baseapp) [#53](https://github.com/sacasnetwork/cosmos-sdk/pull/53) Add a getter function for the `StreamManager` (required for VersionDB wiring).
+
+## [v0.50.8-sacas](https://github.com/sacasnetwork/cosmos-sdk/releases/tag/v0.50.8-sacas) - 2024-07-18
+
+* (cache-store) [#52](https://github.com/sacasnetwork/cosmos-sdk/pull/52) Add a deep copy method for the store.
+>>>>>>> Stashed changes
 
 ## [v0.46.5](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.46.5) - 2022-11-17
 
