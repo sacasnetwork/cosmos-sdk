@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	cosmossdk.io/api v0.2.6
-	cosmossdk.io/core v0.4.0
+	cosmossdk.io/core v1.0.0
 	cosmossdk.io/depinject v1.0.0-alpha.3
 	cosmossdk.io/errors v1.0.0-beta.7
 	cosmossdk.io/math v1.0.0-beta.4
@@ -23,6 +23,7 @@ require (
 
 require (
 	cosmossdk.io/collections v0.0.0-20230106101515-aeac21494476 // indirect
+	cosmossdk.io/schema v1.0.0 // indirect
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/99designs/keyring v1.2.1 // indirect
