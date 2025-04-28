@@ -7,11 +7,11 @@ require (
 	cosmossdk.io/depinject v1.0.0-alpha.3
 	cosmossdk.io/math v1.0.0-beta.4
 	github.com/cosmos/cosmos-db v0.0.0-20221226095112-f3c38ecb5e32
-	github.com/cosmos/cosmos-proto v1.0.0-beta.1
-	github.com/stretchr/testify v1.8.1
+	github.com/cosmos/cosmos-proto v1.0.0-beta.5
+	github.com/stretchr/testify v1.9.0
 	google.golang.org/grpc v1.51.0
-	google.golang.org/protobuf v1.28.1
-	gotest.tools/v3 v3.4.0
+	google.golang.org/protobuf v1.33.0
+	gotest.tools/v3 v3.5.1
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -30,7 +30,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.1.2 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/klauspost/compress v1.15.9 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
