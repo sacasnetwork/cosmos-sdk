@@ -54,7 +54,7 @@ require (
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15
 	github.com/tendermint/go-amino v0.16.0
 	github.com/tendermint/tendermint v0.37.0-rc2
-	github.com/tidwall/btree v1.6.0
+	github.com/tidwall/btree v1.7.0
 	golang.org/x/crypto v0.5.0
 	golang.org/x/exp v0.0.0-20221019170559-20944726eadf
 	google.golang.org/genproto v0.0.0-20221227171554-f9683d7f8bef
