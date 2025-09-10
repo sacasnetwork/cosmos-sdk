@@ -1,11 +1,11 @@
-go 1.19
+go 1.23
 
 module github.com/cosmos/cosmos-sdk
 
 require (
 	cosmossdk.io/api v0.2.6
 	cosmossdk.io/collections v0.0.0-20230106101515-aeac21494476
-	cosmossdk.io/core v0.4.0
+	cosmossdk.io/core v1.0.0
 	cosmossdk.io/depinject v1.0.0-alpha.3
 	cosmossdk.io/errors v1.0.0-beta.7
 	cosmossdk.io/math v1.0.0-beta.4
@@ -70,6 +70,7 @@ require (
 	cloud.google.com/go/compute/metadata v0.2.1 // indirect
 	cloud.google.com/go/iam v0.8.0 // indirect
 	cloud.google.com/go/storage v1.27.0 // indirect
+	cosmossdk.io/schema v1.0.0 // indirect
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
