@@ -1,6 +1,6 @@
 module github.com/cosmos/cosmos-sdk/tests
 
-go 1.19
+go 1.23
 
 require (
 	cosmossdk.io/api v0.2.6
@@ -19,7 +19,7 @@ require (
 	github.com/tendermint/tendermint v0.37.0-rc2
 	google.golang.org/protobuf v1.28.1
 	gotest.tools/v3 v3.4.0
-	pgregory.net/rapid v0.5.5
+	pgregory.net/rapid v1.3.0
 )
 
 require (
