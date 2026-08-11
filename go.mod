@@ -1,4 +1,4 @@
-go 1.19
+go 1.23
 
 module github.com/cosmos/cosmos-sdk
 
@@ -60,7 +60,7 @@ require (
 	google.golang.org/genproto v0.0.0-20221227171554-f9683d7f8bef
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
-	pgregory.net/rapid v0.5.5
+	pgregory.net/rapid v1.3.0
 	sigs.k8s.io/yaml v1.3.0
 )
 
